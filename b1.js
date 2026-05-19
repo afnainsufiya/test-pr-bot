@@ -18,7 +18,7 @@ function getUser33(userId) {
     console.log("user fetched")
   }
 }
-function getUser323(userId) {
+function getUser3311(userId) {
   const query = "SELECT * FROM users WHERE id = " + userId  // SQL injection!
   db.query(query)
 
