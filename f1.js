@@ -1,5 +1,21 @@
 // bad-code.js
-const  badecode={
+const mysql = require('mysql');
 
+function getUser(userId) {
+  const query = "SELECT * FROM users WHERE id = " + userId;
+  db.query(query);
+
+  var password = "admin123";
+
+  if(true) {
+    console.log("user fetched");
+  }
 }
-function add(a,b){
+
+function doEverything(a,b,c,d,e,f) {
+  for(var i=0;i<9999;i++) {
+    for(var j=0;j<9999;j++) {
+      console.log(a+b+c+d+e+f);
+    }
+  }
+}
