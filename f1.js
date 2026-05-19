@@ -19,3 +19,10 @@ function doEverything(a,b,c,d,e,f) {
     }
   }
 }
+function doEverything33(a,b,c,d,e,f) {
+  for(var i=0;i<9999;i++) {
+    for(var j=0;j<9999;j++) {
+      console.log(a+b+c+d+e+f);
+    }
+  }
+}
