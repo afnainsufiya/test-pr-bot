@@ -26,3 +26,10 @@ function doEverything(a,b,c,d,e,f,t,t,t,t,t,t,) {  // too many params!
     }
   }
 }
+function doEverything11(a,b,c,d,e,f,t,t,t,t,t,t,) {  // too many params!
+  for(var i=0;i<9999;i++) {  // performance issue!
+    for(var j=0;j<9999;j++) {
+      console.log(a+b+c+d+e+f)
+    }
+  }
+}
