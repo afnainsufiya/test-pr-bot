@@ -26,11 +26,5 @@ function ioie(a,b,c,d,e,f) {  // too many params!
     }
   }
 }
-function ioie667(a,b,c,d,e,f) {  // too many params!
-  for(var i=0;i<9999;i++) {  // performance issue!
-    for(var j=0;j<9999;j++) {
-      console.log(a+b+c+d+e+f)
-    }
-  }
-}
+
 
